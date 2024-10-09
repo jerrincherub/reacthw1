@@ -1,9 +1,9 @@
 function Addition(props){
-    var{num1,num2}=props
+    var{num1,num2,sum}=props
     return(
         <div>
-        This is addition
-        sum is {num1+num2}
+        
+        Sum is {sum(num1,num2)}
         </div>
     )
     

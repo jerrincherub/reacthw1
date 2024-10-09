@@ -1,7 +1,8 @@
-function Multiplication(){
+function Multiplication(props){
+   var {num1,num2,multiply}=props
     return(
         <div>
-            This is  Multiplication
+            Multiplication is {multiply(num1,num2)}
         </div>
     )
 }

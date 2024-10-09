@@ -1,7 +1,9 @@
- function Substraction(){
+ function Substraction(props){
+   var{num1,num2,substract}=props
     return(
         <div>
-            This is  Substraction
+            
+            substraction is {substract(num1,num2)}
         </div>
     )
 }

@@ -1,7 +1,8 @@
-function Division(){
+function Division(props){
+    var {num1,num2,division}=props
     return(
         <div>
-            This is  Division
+             Division is {division(num1,num2)}
         </div>
     )
 }
